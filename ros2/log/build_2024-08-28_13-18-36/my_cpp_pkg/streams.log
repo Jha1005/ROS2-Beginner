@@ -1,0 +1,26 @@
+[0.050s] Invoking command in '/home/pushpanjali/ros2/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pushpanjali/ros2/build/my_cpp_pkg -- -j8 -l8
+[0.595s] [ 66%] Built target my_first_node
+[0.595s] [100%] Built target subscriber_node
+[0.595s] [100%] Built target my_oops_node
+[1.080s] Invoked command in '/home/pushpanjali/ros2/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pushpanjali/ros2/build/my_cpp_pkg -- -j8 -l8
+[1.153s] Invoking command in '/home/pushpanjali/ros2/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pushpanjali/ros2/build/my_cpp_pkg
+[1.165s] -- Install configuration: ""
+[1.166s] -- Up-to-date: /home/pushpanjali/ros2/install/my_cpp_pkg/lib/my_cpp_pkg/my_first_node
+[1.167s] -- Up-to-date: /home/pushpanjali/ros2/install/my_cpp_pkg/lib/my_cpp_pkg/my_oops_node
+[1.168s] -- Up-to-date: /home/pushpanjali/ros2/install/my_cpp_pkg/lib/my_cpp_pkg/subscriber_node
+[1.170s] -- Up-to-date: /home/pushpanjali/ros2/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[1.170s] -- Up-to-date: /home/pushpanjali/ros2/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[1.170s] -- Up-to-date: /home/pushpanjali/ros2/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[1.171s] -- Up-to-date: /home/pushpanjali/ros2/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[1.171s] -- Up-to-date: /home/pushpanjali/ros2/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[1.171s] -- Up-to-date: /home/pushpanjali/ros2/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[1.171s] -- Up-to-date: /home/pushpanjali/ros2/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[1.171s] -- Up-to-date: /home/pushpanjali/ros2/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[1.171s] -- Up-to-date: /home/pushpanjali/ros2/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[1.172s] -- Up-to-date: /home/pushpanjali/ros2/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[1.172s] -- Installing: /home/pushpanjali/ros2/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[1.172s] -- Up-to-date: /home/pushpanjali/ros2/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[1.173s] -- Up-to-date: /home/pushpanjali/ros2/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[1.173s] -- Up-to-date: /home/pushpanjali/ros2/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[1.173s] -- Up-to-date: /home/pushpanjali/ros2/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[1.178s] Invoked command in '/home/pushpanjali/ros2/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pushpanjali/ros2/build/my_cpp_pkg

@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/my_robot_interface_joy/my_robot_interface_joy.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_robot_interface_joy/my_robot_interface_joy.egg-info/dependency_links.txt
+writing entry points to ../../build/my_robot_interface_joy/my_robot_interface_joy.egg-info/entry_points.txt
+writing requirements to ../../build/my_robot_interface_joy/my_robot_interface_joy.egg-info/requires.txt
+writing top-level names to ../../build/my_robot_interface_joy/my_robot_interface_joy.egg-info/top_level.txt
+reading manifest file '../../build/my_robot_interface_joy/my_robot_interface_joy.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_robot_interface_joy/my_robot_interface_joy.egg-info/SOURCES.txt'
+running build
+running build_py
+copying my_robot_interface_joy/JoyStick.py -> /home/pushpanjali/ros2/build/my_robot_interface_joy/build/lib/my_robot_interface_joy
+running install
+running install_lib
+copying /home/pushpanjali/ros2/build/my_robot_interface_joy/build/lib/my_robot_interface_joy/JoyStick.py -> /home/pushpanjali/ros2/install/my_robot_interface_joy/lib/python3.10/site-packages/my_robot_interface_joy
+byte-compiling /home/pushpanjali/ros2/install/my_robot_interface_joy/lib/python3.10/site-packages/my_robot_interface_joy/JoyStick.py to JoyStick.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/pushpanjali/ros2/install/my_robot_interface_joy/lib/python3.10/site-packages/my_robot_interface_joy-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/my_robot_interface_joy/my_robot_interface_joy.egg-info to /home/pushpanjali/ros2/install/my_robot_interface_joy/lib/python3.10/site-packages/my_robot_interface_joy-0.0.0-py3.10.egg-info
+running install_scripts
+Installing JoyStick script to /home/pushpanjali/ros2/install/my_robot_interface_joy/lib/my_robot_interface_joy
+writing list of installed files to '/home/pushpanjali/ros2/build/my_robot_interface_joy/install.log'

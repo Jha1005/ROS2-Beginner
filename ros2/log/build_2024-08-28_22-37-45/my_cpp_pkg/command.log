@@ -1,0 +1,4 @@
+Invoking command in '/home/pushpanjali/ros2/build/my_cpp_pkg': /usr/bin/cmake --build /home/pushpanjali/ros2/build/my_cpp_pkg -- -j8 -l8
+Invoked command in '/home/pushpanjali/ros2/build/my_cpp_pkg' returned '0': /usr/bin/cmake --build /home/pushpanjali/ros2/build/my_cpp_pkg -- -j8 -l8
+Invoking command in '/home/pushpanjali/ros2/build/my_cpp_pkg': /usr/bin/cmake --install /home/pushpanjali/ros2/build/my_cpp_pkg
+Invoked command in '/home/pushpanjali/ros2/build/my_cpp_pkg' returned '0': /usr/bin/cmake --install /home/pushpanjali/ros2/build/my_cpp_pkg

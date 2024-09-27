@@ -1,0 +1,120 @@
+[0.000000] (-) TimerEvent: {}
+[0.000380] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000514] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.000527] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.004037] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.007906] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.008237] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.008673] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pushpanjali/ros2/build/my_cpp_pkg', '--', '-j8', '-l8'], 'cwd': '/home/pushpanjali/ros2/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pushpanjali'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pushpanjali'), ('OLDPWD', '/home/pushpanjali'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4108'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/pushpanjali/ros2/install:/home/pushpanjali/ros2_work/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pushpanjali'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pushpanjali'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pushpanjali-IdeaPad-Gaming-3-15IHU6:@/tmp/.ICE-unix/1763,unix/pushpanjali-IdeaPad-Gaming-3-15IHU6:/tmp/.ICE-unix/1763'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/686fa2fa_a614_49fa_a9f8_3f148c2a2c5e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/pushpanjali/ros2/install/my_py_pkg:/home/pushpanjali/ros2/install/my_cpp_pkg:/home/pushpanjali/ros2_work/install/my_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pushpanjali/ros2/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pushpanjali/ros2/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pushpanjali/ros2/install/my_cpp_pkg:/home/pushpanjali/ros2_work/install/my_cpp_pkg:/home/pushpanjali/ros2/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.039373] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target subscriber_node\x1b[0m\n'}
+[0.047981] (my_cpp_pkg) StdoutLine: {'line': b'[ 66%] Built target my_first_node\n'}
+[0.048214] (my_cpp_pkg) StdoutLine: {'line': b'[ 66%] Built target my_oops_node\n'}
+[0.051986] (my_cpp_pkg) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_node.dir/src/subscriber_node.cpp.o\x1b[0m\n'}
+[0.099928] (-) TimerEvent: {}
+[0.200306] (-) TimerEvent: {}
+[0.300597] (-) TimerEvent: {}
+[0.401053] (-) TimerEvent: {}
+[0.414681] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_pkg', 'build', '--build-base', '/home/pushpanjali/ros2/build/my_py_pkg/build', 'install', '--record', '/home/pushpanjali/ros2/build/my_py_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pushpanjali/ros2/src/my_py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'pushpanjali', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/pushpanjali', 'OLDPWD': '/home/pushpanjali', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '4108', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'COLCON_PREFIX_PATH': '/home/pushpanjali/ros2/install:/home/pushpanjali/ros2_work/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'pushpanjali', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pushpanjali', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/pushpanjali-IdeaPad-Gaming-3-15IHU6:@/tmp/.ICE-unix/1763,unix/pushpanjali-IdeaPad-Gaming-3-15IHU6:/tmp/.ICE-unix/1763', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/686fa2fa_a614_49fa_a9f8_3f148c2a2c5e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.103', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/pushpanjali/ros2/install/my_py_pkg:/home/pushpanjali/ros2/install/my_cpp_pkg:/home/pushpanjali/ros2_work/install/my_cpp_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pushpanjali/ros2/build/my_py_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pushpanjali/ros2/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pushpanjali/ros2/install/my_py_pkg/lib/python3.10/site-packages:/home/pushpanjali/ros2/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/pushpanjali/ros2/install/my_cpp_pkg:/home/pushpanjali/ros2_work/install/my_cpp_pkg'}, 'shell': False}
+[0.501224] (-) TimerEvent: {}
+[0.602358] (-) TimerEvent: {}
+[0.615510] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.615941] (my_py_pkg) StdoutLine: {'line': b'writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[0.616130] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[0.616231] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[0.616317] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[0.616361] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[0.617447] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[0.617992] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[0.618064] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[0.618110] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[0.618268] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[0.618481] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[0.619418] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[0.619516] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.620430] (my_py_pkg) StdoutLine: {'line': b"removing '/home/pushpanjali/ros2/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.620652] (my_py_pkg) StdoutLine: {'line': b'Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/pushpanjali/ros2/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info\n'}
+[0.621070] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[0.637710] (my_py_pkg) StdoutLine: {'line': b'Installing my_first_node script to /home/pushpanjali/ros2/install/my_py_pkg/lib/my_py_pkg\n'}
+[0.637906] (my_py_pkg) StdoutLine: {'line': b'Installing my_oops_node script to /home/pushpanjali/ros2/install/my_py_pkg/lib/my_py_pkg\n'}
+[0.637960] (my_py_pkg) StdoutLine: {'line': b'Installing publisher_node script to /home/pushpanjali/ros2/install/my_py_pkg/lib/my_py_pkg\n'}
+[0.638116] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/pushpanjali/ros2/build/my_py_pkg/install.log'\n"}
+[0.659417] (my_py_pkg) CommandEnded: {'returncode': 0}
+[0.669628] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[0.702499] (-) TimerEvent: {}
+[0.802873] (-) TimerEvent: {}
+[0.903258] (-) TimerEvent: {}
+[1.003623] (-) TimerEvent: {}
+[1.104007] (-) TimerEvent: {}
+[1.204404] (-) TimerEvent: {}
+[1.304790] (-) TimerEvent: {}
+[1.405180] (-) TimerEvent: {}
+[1.505576] (-) TimerEvent: {}
+[1.605872] (-) TimerEvent: {}
+[1.706260] (-) TimerEvent: {}
+[1.806684] (-) TimerEvent: {}
+[1.907067] (-) TimerEvent: {}
+[2.007481] (-) TimerEvent: {}
+[2.107877] (-) TimerEvent: {}
+[2.208282] (-) TimerEvent: {}
+[2.308674] (-) TimerEvent: {}
+[2.409055] (-) TimerEvent: {}
+[2.509451] (-) TimerEvent: {}
+[2.609772] (-) TimerEvent: {}
+[2.710220] (-) TimerEvent: {}
+[2.810661] (-) TimerEvent: {}
+[2.911043] (-) TimerEvent: {}
+[3.011470] (-) TimerEvent: {}
+[3.111868] (-) TimerEvent: {}
+[3.212329] (-) TimerEvent: {}
+[3.312730] (-) TimerEvent: {}
+[3.413041] (-) TimerEvent: {}
+[3.513448] (-) TimerEvent: {}
+[3.613823] (-) TimerEvent: {}
+[3.714207] (-) TimerEvent: {}
+[3.814579] (-) TimerEvent: {}
+[3.914940] (-) TimerEvent: {}
+[4.015308] (-) TimerEvent: {}
+[4.115671] (-) TimerEvent: {}
+[4.216042] (-) TimerEvent: {}
+[4.316450] (-) TimerEvent: {}
+[4.416846] (-) TimerEvent: {}
+[4.517202] (-) TimerEvent: {}
+[4.617573] (-) TimerEvent: {}
+[4.717930] (-) TimerEvent: {}
+[4.818306] (-) TimerEvent: {}
+[4.918680] (-) TimerEvent: {}
+[5.019058] (-) TimerEvent: {}
+[5.119444] (-) TimerEvent: {}
+[5.219820] (-) TimerEvent: {}
+[5.320231] (-) TimerEvent: {}
+[5.403859] (my_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable subscriber_node\x1b[0m\n'}
+[5.420344] (-) TimerEvent: {}
+[5.520667] (-) TimerEvent: {}
+[5.620975] (-) TimerEvent: {}
+[5.648142] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target subscriber_node\n'}
+[5.658280] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[5.675449] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'install'}
+[5.680800] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pushpanjali/ros2/build/my_cpp_pkg'], 'cwd': '/home/pushpanjali/ros2/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pushpanjali'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pushpanjali'), ('OLDPWD', '/home/pushpanjali'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4108'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/pushpanjali/ros2/install:/home/pushpanjali/ros2_work/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pushpanjali'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pushpanjali'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pushpanjali-IdeaPad-Gaming-3-15IHU6:@/tmp/.ICE-unix/1763,unix/pushpanjali-IdeaPad-Gaming-3-15IHU6:/tmp/.ICE-unix/1763'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/686fa2fa_a614_49fa_a9f8_3f148c2a2c5e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/pushpanjali/ros2/install/my_py_pkg:/home/pushpanjali/ros2/install/my_cpp_pkg:/home/pushpanjali/ros2_work/install/my_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pushpanjali/ros2/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pushpanjali/ros2/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pushpanjali/ros2/install/my_cpp_pkg:/home/pushpanjali/ros2_work/install/my_cpp_pkg:/home/pushpanjali/ros2/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[5.685869] (my_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.686050] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pushpanjali/ros2/install/my_cpp_pkg/lib/my_cpp_pkg/my_first_node\n'}
+[5.686377] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pushpanjali/ros2/install/my_cpp_pkg/lib/my_cpp_pkg/my_oops_node\n'}
+[5.686433] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/pushpanjali/ros2/install/my_cpp_pkg/lib/my_cpp_pkg/subscriber_node\n'}
+[5.688790] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/pushpanjali/ros2/install/my_cpp_pkg/lib/my_cpp_pkg/subscriber_node" to ""\n'}
+[5.688834] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pushpanjali/ros2/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg\n'}
+[5.688888] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pushpanjali/ros2/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg\n'}
+[5.688943] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pushpanjali/ros2/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[5.688980] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pushpanjali/ros2/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[5.689033] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pushpanjali/ros2/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh\n'}
+[5.689116] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pushpanjali/ros2/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv\n'}
+[5.689167] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pushpanjali/ros2/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash\n'}
+[5.689204] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pushpanjali/ros2/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh\n'}
+[5.689240] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pushpanjali/ros2/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh\n'}
+[5.689276] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pushpanjali/ros2/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv\n'}
+[5.689311] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/pushpanjali/ros2/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv\n'}
+[5.689380] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pushpanjali/ros2/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg\n'}
+[5.689416] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pushpanjali/ros2/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake\n'}
+[5.689450] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pushpanjali/ros2/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake\n'}
+[5.689483] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pushpanjali/ros2/install/my_cpp_pkg/share/my_cpp_pkg/package.xml\n'}
+[5.690489] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[5.714403] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[5.714847] (-) EventReactorShutdown: {}

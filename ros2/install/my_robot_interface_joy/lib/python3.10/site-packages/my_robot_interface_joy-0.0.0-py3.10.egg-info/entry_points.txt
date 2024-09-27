@@ -1,0 +1,3 @@
+[console_scripts]
+JoyStick = my_robot_interface_joy.JoyStick:main
+

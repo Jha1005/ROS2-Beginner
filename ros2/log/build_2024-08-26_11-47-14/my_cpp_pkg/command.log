@@ -1,0 +1,6 @@
+Invoking command in '/home/pushpanjali/ros2/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pushpanjali/ros2/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/pushpanjali/ros2/install/my_cpp_pkg
+Invoked command in '/home/pushpanjali/ros2/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pushpanjali/ros2/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/pushpanjali/ros2/install/my_cpp_pkg
+Invoking command in '/home/pushpanjali/ros2/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pushpanjali/ros2/build/my_cpp_pkg -- -j8 -l8
+Invoked command in '/home/pushpanjali/ros2/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pushpanjali/ros2/build/my_cpp_pkg -- -j8 -l8
+Invoking command in '/home/pushpanjali/ros2/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pushpanjali/ros2/build/my_cpp_pkg
+Invoked command in '/home/pushpanjali/ros2/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pushpanjali/ros2/build/my_cpp_pkg

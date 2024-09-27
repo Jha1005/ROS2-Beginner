@@ -1,0 +1,10 @@
+[ 66%] [32mBuilding CXX object CMakeFiles/subscriber_node.dir/src/subscriber_node.cpp.o[0m
+[ 83%] Built target my_oops_node
+[ 83%] Built target my_first_node
+[01m[K/home/pushpanjali/ros2/src/my_cpp_pkg/src/subscriber_node.cpp:[m[K In constructor ‘[01m[KMyNode::MyNode()[m[K’:
+[01m[K/home/pushpanjali/ros2/src/my_cpp_pkg/src/subscriber_node.cpp:13:57:[m[K [01;31m[Kerror: [m[K‘[01m[KtimerCallback[m[K’ is not a member of ‘[01m[KMyNode[m[K’
+   13 |             std::chrono::seconds(1), std::bind(&MyNode::[01;31m[KtimerCallback[m[K, this));
+      |                                                         [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/subscriber_node.dir/build.make:76: CMakeFiles/subscriber_node.dir/src/subscriber_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/subscriber_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
